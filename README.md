@@ -1,6 +1,8 @@
 # Binary-Decision-Tree
 Binary Decision Tree Implemented in Python without scikit or Pandas using Numpy version 1.7.1.
+
 Given Problem:
+
 In decisionTree.fpy j java j cpp j mg, implement a Decision Tree learner. This file should learn a decision
 tree with a specified maximum depth, print the decision tree in a specified format, predict the labels of the
 training and testing examples, and calculate training and testing errors.
