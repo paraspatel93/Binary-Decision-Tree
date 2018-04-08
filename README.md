@@ -10,8 +10,8 @@ Your implementation must satisfy the following requirements:
 
 • Use mutual information to determine which attribute to split on.
 • Be sure you’re correctly weighting your calculation of mutual information. For a split on attribute X,
-I(Y ;X) = H(Y ) 􀀀 H(Y jX) = H(Y ) 􀀀 P(X = 0)H(Y jX = 0) 􀀀 P(X = 1)H(Y jX = 1).
-Equivalently, you can calculate I(Y ;X) = H(Y ) + H(X) 􀀀 H(Y;X).
+I(Y ,X) = H(Y ) - H(Y | X) = H(Y ) - P(X = 0)H(Y|X = 0) - P(X = 1)H(Y|X = 1).
+Equivalently, you can calculate I(Y ,X) = H(Y ) + H(X) - H(Y,X).
 • As a stopping rule, only split on an attribute if the mutual information is > 0.
 • Use a majority vote of the labels at each leaf to make classification decisions.
 
