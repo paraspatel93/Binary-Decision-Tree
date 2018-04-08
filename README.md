@@ -26,3 +26,5 @@ be written.
 written.
 6. \<metrics out\>: path of the output .txt file to which metrics such as train and test error should
 be written.
+
+handout folder contains some example data sets to work on.
